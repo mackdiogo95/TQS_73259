@@ -7,3 +7,8 @@ You can also find a test chain in the method
 `public void whenFindEmployedByExistingId_thenReturnEmployee()`
 where you can read
 `assertThat(fromDb.getEmail()).isEqualTo( emp.getEmail());`
+
+### b)
+
+In the file `EmployeeService_UnitTest`
+all the tests are unit tests, using Mockito and JUnit, making them not connected to the database.
