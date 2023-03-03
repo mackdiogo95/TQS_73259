@@ -15,8 +15,8 @@ all the tests are unit tests, using Mockito and JUnit, making them not connected
 ### c)
 Using `@Mock`, the tests being done can be compared to unit tests, since we are mocking behaviour, independently from SpringBoot.
 Using `@MockBean`, we are adding Mockito mocks to the SpringBoot app.
-Basically, we use `@Mock` to mock behaviour, independently from spring dependencies.
-Otherwise we use `@MockBean`.
+
+Basically, we use `@Mock` to mock behaviour, independently from spring dependencies, otherwise we use `@MockBean`.
 
 ### d)
 The role of the `application-integrationtest.properties` file is to deploy a database in a docker container where the SpringBoot application will run on.
