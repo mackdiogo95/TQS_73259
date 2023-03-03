@@ -23,4 +23,4 @@ Using `@MockBean`, we are adding Mockito mocks to the SpringBoot app.
 Basically, we use `@Mock` to mock behaviour, independently from spring dependencies, otherwise we use `@MockBean`.
 
 ### d)
-The role of the `application-integrationtest.properties` file is to deploy a database in a docker container where the SpringBoot application will run on.
+The role of the `application-integrationtest.properties` file is to deploy a brand new database everytime, in a docker container where the SpringBoot application will run on.
